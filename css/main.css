@@ -1,56 +1,102 @@
 @import url("bootstrap.css");
 @import url("bootstrap-theme.css");
 
+/* Set mouse selection to a nice colour */
+::selection {
+	background: #b3d4fc;
+}
+
+/* Set global fonts */
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 body {
-    background: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
     background-size: cover;
+    display: block;
+    padding-top: 50px;
+}
+
+.navbar {
+    background-image: none;
+    background-color: #333D47;
+    border: none;
+    min-height: 50px;
+}
+
+.img {
+    background-repeat: no-repeat;
+}
+
+
+#logo {
+    background-image: url(../images/anymal.png);
+    background-size: contain;
+    height: 50px;
 }
 
 #title {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    background-image: url(../images/logocar4.png);
+    background-size: contain;
+    background-position: center;
+    height: 180px;
 }
 
-#logo {
-position: absolute;
-
+.showcase {
+    height: 50%;
 }
 
-#logo img{
-height: auto;
-width: 40%;
-
+#Nexus {
+    background-image: url(../images/Nexus.png);
+    background-size: contain;
+    background-position: center;
+    height: 120%;
+    align-content: center;
 }
 
-#title img {
-height: 30%;
-width: auto;
-
+#GPlay {
+    background-image: url(../images/google-play.893a21d9.svg);
+    background-size: contain;
+    background-position: center;
+    height: 20%;
+    vertical-align: middle;
 }
 
-#bgimg {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+@media (max-width: 480px) {
+    #title {
+        background-image: url(../images/logocar4.png);
+        background-size: contain;
+        background-position: center;
+        height: 160px;
+    }
+
+    .showcase {
+        height: 45%;
+    }
+
+    #Nexus {
+        background-image: url(../images/Nexus.png);
+        background-size: contain;
+        background-position: center;
+        height: 110%;
+        align-content: center;
+    }
+
+    #GPlay {
+        background-image: url(../images/google-play.893a21d9.svg);
+        background-size: contain;
+        background-position: center;
+        height: 20%;
+        vertical-align: middle;
+    }
+
+}
 }
 
-#bgimg img {
-
-  height: 50%;
-  width: auto;
-
-}
+    
+    
 
 
 
-#bgimg .googlePlay {
-
-  height: 5%;
-  width: auto;
-
-}
