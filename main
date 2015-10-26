@@ -1,6 +1,0 @@
-body {
-    background:url("backgrounud.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: auto;
-}

@@ -1,16 +1,19 @@
+@import url("bootstrap.css");
+@import url("bootstrap-theme.css");
+
 body {
-    background:url("background.jpg");
+    background: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
 }
 
 #title {
-position:absolute;
-    left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #logo {
