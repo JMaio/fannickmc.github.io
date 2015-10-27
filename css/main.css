@@ -16,6 +16,7 @@ body {
     background-position: center;
     background-size: cover;
     display: block;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 
@@ -41,58 +42,60 @@ body {
     background-image: url(../images/logocar4.png);
     background-size: contain;
     background-position: center;
-    height: 180px;
+    height: 20%;
 }
 
 .showcase {
-    height: 50%;
+    height: 60%;
 }
 
 #Nexus {
-    background-image: url(../images/Nexus.png);
+    background-image: url(../images/Screens.png);
     background-size: contain;
     background-position: center;
-    height: 120%;
-    align-content: center;
+    height: 80%;
+    margin-bottom: 1%;
 }
 
 #GPlay {
     background-image: url(../images/google-play.893a21d9.svg);
     background-size: contain;
     background-position: center;
-    height: 20%;
+    height: 15%;
     vertical-align: middle;
 }
 
 @media (max-width: 480px) {
     #title {
-        background-image: url(../images/logocar4.png);
-        background-size: contain;
-        background-position: center;
-        height: 160px;
+        height: 25%;
     }
 
     .showcase {
-        height: 45%;
+        height: 60%;
     }
 
     #Nexus {
-        background-image: url(../images/Nexus.png);
-        background-size: contain;
-        background-position: center;
-        height: 110%;
-        align-content: center;
+        max-height: 60%;
     }
 
     #GPlay {
-        background-image: url(../images/google-play.893a21d9.svg);
-        background-size: contain;
-        background-position: center;
-        height: 20%;
-        vertical-align: middle;
+        max-height: 15%;
     }
 
 }
+
+@media (min-width: 1200px) {
+    .showcase {
+        height: 65%;
+    }
+    
+    #Nexus {
+        height: 100%;
+    }
+    
+    #GPlay {
+        height: 100%;
+    }
 }
 
     
